@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, input, button {
+  font-family: 'Inter', sans-serif;
+  background-color: #09090B;
+  color: #FAFAFA;
+
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+
+/* app */
+#app {
+  position: relative;
+  margin: auto;
+  padding: 40px 20px;
+  max-width: 320px;
+  
+}
+
+
+/* form */
+#place {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 22px 16px;
+
+  font-size: 14px;
+  margin-bottom:32px;
+}
+
+input, select {
+  all: unset;
+}
+
+input, button {
+  width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8) brightness(50%) sepia(100%) saturate(10000%) hue-rotate(110deg);
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8) brightness(50%) sepia(100%) saturate(10000%) hue-rotate(110deg);
+}
+
+.fields {
+  display: grid;
+  gap: 8px;
+}
+
+.field-wrapper {
+  padding: 18px;
+  background-color: #09090B;
+  border: 1px solid #27272A;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.field-wrapper:focus-within {
+  outline: 2px solid yellowgreen;
+}
+
+button {
+  margin-top: 12px;
+  border: none;
+  padding: 12px 20px;
+  background-color: #AFF445;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #132F00;
+  cursor: pointer;
+  transition: .8s;
+
+
+}
+
+button:hover {
+  background-color: #18181B;
+  color: #FAFAFA;
+}
+
+.card-bg {
+  background: #18181B;
+
+  box-shadow: 
+    0px 8px 8px rgba(0, 0, 0, 0.1), 
+    0px 4px 4px rgba(0, 0, 0, 0.1), 
+    0px 2px 2px rgba(0, 0, 0, 0.1), 
+    0px 0px 0px 1px rgba(0, 0, 0, 0.1), 
+    inset 0px 0px 0px 1px rgba(255, 255, 255, 0.03), inset 0px 1px 0px rgba(255, 255, 255, 0.03);
+
+  border-radius: 12px;
+}
+
+/* main */
+
+main {
+  position: relative;
+  margin-top: 32px;
+  padding: 18px;
+}
+
+
+h1 {
+  position: absolute;
+  text-align: center; 
+  font-weight: 600;
+  font-size: 30px;
+  top: 0.2em;
+}
+
+#mensagem {
+  position: absolute;
+  top: 3.5em;
+}
+
+section {
+  display: grid;
+  gap: 10px;
+}
+
+section input[type="checkbox"] {
+  position: absolute;
+  inset: 0;
+}
+
+section .card-bg {
+  position: relative;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .card-bg:has(:checked) .active,
+section .card-bg .inactive {
+  display: block;
+}
+
+section .card-bg:has(:checked) .inactive,
+section .card-bg .active {
+  display: none;
+}
+
+
+
+section .card-bg > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+time {
+  font-size: 14px;
+  color: #A1A1AB;
+  text-align: right;
+}
+
+time.full {
+  display: none;
+}
+
+@media (width > 1024px) {
+  #app {
+    display: flex;
+    max-width: 960px;
+    gap: 32px;
+
+  }
+
+  main {
+    margin-top: 0;
+    flex: 1;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  time.full {
+    display: block;
+  }
+
+  time.short {
+    display: none;
+  }
+}
+
+section .card-bg {
+  animation: appear 300ms;
+}
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px
+}
+
+.copy {
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.p1 {
+  color: rgb(255, 255, 255, 0.3);
+  transition: .8s;
+}
+
+.p1:hover {
+  color: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-bg {
+  top: 2em;
+}
