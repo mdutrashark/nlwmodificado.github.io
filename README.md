@@ -3,8 +3,8 @@
 ## Objetivo 🎯
 Desenvolver uma aplicação para planejamento de atividades com JavaScript, CSS e HTML, aplicando conceitos de baixa e média complexidade num único projeto de maneira ágil e dinâmica.
 
-## Veja o Projeto original na prática:
-- [Acesse aqui](https://mdutrashark.github.io/nlworiginal.github.io/)
+## Veja e teste o Projeto original na prática:
+- [Acesse aqui o site](https://mdutrashark.github.io/nlworiginal.github.io/)
 
 ## Principais abordagens❓
 
@@ -20,8 +20,9 @@ Desenvolver uma aplicação para planejamento de atividades com JavaScript, CSS 
 10 - **Formatador Day.Js** <br>
 
 
-## Veja o Projeto modificado na prática:
-- [Acesse aqui](https://mdutrashark.github.io/nlwmodificado.github.io/)
+## Veja e teste o Projeto modificado na prática:
+- [Acesse aqui o site](https://mdutrashark.github.io/nlwmodificado.github.io/)
+- [Acesse a Planilha da API](https://docs.google.com/spreadsheets/d/1J6TuN6LM1er6i7Qg-7ZmfSk5HIbRIhEOFvIg7jFOkU4/edit?usp=sharing)
 
 
 ## Modificações Feitas 🔧
