@@ -3,8 +3,8 @@
 ## Objetivo 🎯
 Desenvolver uma aplicação para planejamento de atividades com JavaScript, CSS e HTML, aplicando conceitos de baixa e média complexidade num único projeto de maneira ágil e dinâmica.
 
-## Acesse o Projeto original abaixo:
-- [Acesse aqui](https://github.com/rocketseat-education/nlw-journey-html-css-js/tree/c7b9e22548684e30d8323a2cc51c782775fa5cac)
+## Veja o Projeto original na prática:
+- [Acesse aqui](https://mdutrashark.github.io/nlworiginal.github.io/)
 
 ## Principais abordagens❓
 
@@ -20,8 +20,8 @@ Desenvolver uma aplicação para planejamento de atividades com JavaScript, CSS 
 10 - **Formatador Day.Js** <br>
 
 
-## Acesse o Projeto Modificado abaixo:
-<a href= "https://mdutrashark.github.io/" > Acesse aqui </a>
+## Veja o Projeto modificado na prática:
+- [Acesse aqui](https://mdutrashark.github.io/nlwmodificado.github.io/)
 
 
 ## Modificações Feitas 🔧
@@ -45,4 +45,11 @@ Desenvolver uma aplicação para planejamento de atividades com JavaScript, CSS 
 ## Referências de pesquisa 🔎
 - [API SheetMonkey](https://www.youtube.com/watch?v=w7SUjrKCdwE)
 - [Utilizando webkit](https://pt.stackoverflow.com/questions/500956/como-estilizar-%C3%ADcone-de-calend%C3%A1rio-em-html5)
- 
+
+
+
+                                                            
+                          
+                         
+                               Desenvolvido por RocketSeat e Modificado por Marcos Dutra
+                           
